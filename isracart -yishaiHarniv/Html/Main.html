@@ -1,8 +1,11 @@
-﻿<div ng-controller="mainCtrl" ng-init="getBookmark()">
+﻿
+
+<div ng-controller="mainCtrl" ng-init="getBookmark()">
     <div class="container">
         <div>
             <h1> Home </h1>
         </div>
+
         <div class="row mt-2 mb-5 col-md-4">
             <div class="input-group">
                 <input type="text" class="form-control" ng-model="key" ng-enter="Search()">
@@ -11,14 +14,15 @@
                 </span>
             </div>
         </div>
-        <div class="row">
+        <div id="loader" class="loader text-center" style="display:none"></div>
+        <div id="res" class="row" style="display:none">
             <div ng-repeat="item in data" class="mt-5 mb-5 col-md-3 center">
                 <img ng-src="{{ item.owner.avatar_url}}" class="img-responsive" style="width:210px;height:200px" />
                 <div class="row mt-1 justify-content-center">
                     <label class="small" style="white-space:nowrap;" ng-bind="item.name"></label>
                 </div>
                 <div class="row mt-1 justify-content-center">
-                    <button type="button" class="btn btn-primary" ng-click="Post(item)">bookmark</button>
+                    <button type="button" class="btn btn-primary" ng-click="Post(item)" ng-disabled="item.disabled">bookmark</button>
                 </div>
             </div>
         </div>

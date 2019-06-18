@@ -41,18 +41,19 @@ mainApp.controller('mainCtrl', function ($scope, $http) {
 
     //get bookmark from session
     $scope.getBookmark = function () {
+        Loader(true); 
         $http.get("/Home/ToList").then(function (response) {
-            console.log('response', response.data);
-            $scope.data = response.data
+            $scope.data = response.data;
+            Loader(false);            
         });
     }
 
     //search function from api
     $scope.Search = function (key) {
-        console.log('search', key);
+        Loader(true); 
         $http.get('https://api.github.com/search/repositories?q=' + key).then(function (response) {
-            console.log('response', response.data);
             $scope.data = response.data.items
+            Loader(false);            
         });
     };
 
@@ -65,13 +66,22 @@ mainApp.controller('mainCtrl', function ($scope, $http) {
             datatype: "json",
             data: item
         }).then(function (response) {
-            console.log(response);
+            item.disabled = true;
         })
     }
 
 
-    $scope.name = 'Nishchit Dhananai';
-    $scope.alert = function (name) {
-        alert("sdsds");
+    function Loader(status) {
+        if (status == true) {
+            $('#loader').show();
+            $('#res').hide();
+            $('#res1').hide();
+        }
+        else {
+            $('#loader').hide();
+            $('#res').show();
+            $('#res1').show();
+        }
     }
+
 })

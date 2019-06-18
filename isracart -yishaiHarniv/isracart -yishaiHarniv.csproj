@@ -161,6 +161,7 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Loader.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -194,10 +195,10 @@
     <Content Include="Content\angular\bootstrap.min.js" />
     <Content Include="Html\Bookmark.html" />
     <Content Include="Html\Main.html" />
-    <Content Include="Scripts\bootstrap.bundle.js" />
-    <Content Include="Scripts\bootstrap.bundle.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\bootstrap.bundle.js" />
+    <Content Include="Content\bootstrap.bundle.min.js" />
+    <Content Include="Content\bootstrap.js" />
+    <Content Include="Content\bootstrap.min.js" />
     <Content Include="Scripts\Data.controller.js" />
     <Content Include="Content\angular\errors.json" />
     <Content Include="Content\angular\angular.min.js.map" />
@@ -970,37 +971,37 @@
     <Content Include="Content\angular\test-bundles\angular-route.js" />
     <Content Include="Content\angular\test-bundles\angular-sanitize.js" />
     <Content Include="Content\angular\test-bundles\angular-touch.js" />
-    <Content Include="Scripts\esm\popper-utils.js" />
-    <Content Include="Scripts\esm\popper-utils.min.js" />
-    <Content Include="Scripts\esm\popper.js" />
-    <Content Include="Scripts\esm\popper.min.js" />
-    <Content Include="Scripts\esm\popper.min.js.map" />
-    <Content Include="Scripts\esm\popper.js.map" />
-    <Content Include="Scripts\esm\popper-utils.min.js.map" />
-    <Content Include="Scripts\esm\popper-utils.js.map" />
-    <Content Include="Scripts\bootstrap.min.js.map" />
-    <Content Include="Scripts\bootstrap.js.map" />
-    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
-    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\esm\popper-utils.js" />
+    <Content Include="Content\esm\popper-utils.min.js" />
+    <Content Include="Content\esm\popper.js" />
+    <Content Include="Content\esm\popper.min.js" />
+    <Content Include="Content\esm\popper.min.js.map" />
+    <Content Include="Content\esm\popper.js.map" />
+    <Content Include="Content\esm\popper-utils.min.js.map" />
+    <Content Include="Content\esm\popper-utils.js.map" />
+    <Content Include="Content\bootstrap.min.js.map" />
+    <Content Include="Content\bootstrap.js.map" />
+    <Content Include="Content\bootstrap.bundle.min.js.map" />
+    <Content Include="Content\bootstrap.bundle.js.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-reboot.min.css.map" />
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
-    <Content Include="Scripts\jquery-3.0.0.js" />
-    <Content Include="Scripts\jquery-3.0.0.min.js" />
-    <Content Include="Scripts\jquery-3.0.0.slim.js" />
-    <Content Include="Scripts\jquery-3.0.0.slim.min.js" />
-    <Content Include="Scripts\popper-utils.js" />
-    <Content Include="Scripts\popper-utils.min.js" />
-    <Content Include="Scripts\popper.js" />
-    <Content Include="Scripts\popper.min.js" />
-    <Content Include="Scripts\umd\popper-utils.js" />
-    <Content Include="Scripts\umd\popper-utils.min.js" />
-    <Content Include="Scripts\umd\popper.js" />
-    <Content Include="Scripts\umd\popper.min.js" />
+    <None Include="Content\jquery-3.0.0-vsdoc.js" />
+    <Content Include="Content\jquery-3.0.0.js" />
+    <Content Include="Content\jquery-3.0.0.min.js" />
+    <Content Include="Content\jquery-3.0.0.slim.js" />
+    <Content Include="Content\jquery-3.0.0.slim.min.js" />
+    <Content Include="Content\popper-utils.js" />
+    <Content Include="Content\popper-utils.min.js" />
+    <Content Include="Content\popper.js" />
+    <Content Include="Content\popper.min.js" />
+    <Content Include="Content\umd\popper-utils.js" />
+    <Content Include="Content\umd\popper-utils.min.js" />
+    <Content Include="Content\umd\popper.js" />
+    <Content Include="Content\umd\popper.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1015,17 +1016,16 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Content\angular\version.json" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
-    <Content Include="Scripts\jquery-3.0.0.min.map" />
-    <Content Include="Scripts\umd\popper.min.js.map" />
-    <Content Include="Scripts\umd\popper.js.map" />
-    <Content Include="Scripts\umd\popper-utils.min.js.map" />
-    <Content Include="Scripts\umd\popper-utils.js.map" />
-    <Content Include="Scripts\README.md" />
-    <Content Include="Scripts\popper.min.js.map" />
-    <Content Include="Scripts\popper.js.map" />
-    <Content Include="Scripts\popper-utils.min.js.map" />
-    <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Content\jquery-3.0.0.slim.min.map" />
+    <Content Include="Content\jquery-3.0.0.min.map" />
+    <Content Include="Content\umd\popper.min.js.map" />
+    <Content Include="Content\umd\popper.js.map" />
+    <Content Include="Content\umd\popper-utils.min.js.map" />
+    <Content Include="Content\umd\popper-utils.js.map" />
+    <Content Include="Content\popper.min.js.map" />
+    <Content Include="Content\popper.js.map" />
+    <Content Include="Content\popper-utils.min.js.map" />
+    <Content Include="Content\popper-utils.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1037,7 +1037,7 @@
     <Content Include="Content\angular\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\index.d.ts" />
+    <TypeScriptCompile Include="Content\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
