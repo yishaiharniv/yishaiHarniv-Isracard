@@ -1,0 +1,18 @@
+﻿<div ng-controller="mainCtrl" ng-init="getBookmark()">
+    <div class="container">
+        <div>
+            <h1> Bookmark </h1>
+        </div>
+        <div class="row">
+            <div ng-repeat="item in data" class="mt-5 mb-5 col-md-3 center">
+                <img ng-src="{{ item.owner.avatar_url}}" class="img-responsive" style="width:210px;height:200px" />
+                <div class="row mt-1 justify-content-center">
+                    <label class="small" style="white-space:nowrap;" ng-bind="item.name"></label>
+                </div>
+                <div class="row mt-1 justify-content-center">
+                    <button type="button" class="btn btn-primary" ng-click="Post(item)">bookmark</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
