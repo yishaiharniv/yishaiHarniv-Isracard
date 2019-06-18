@@ -18,10 +18,14 @@ clone the project or download , run the application in visualStudio , then play 
 
 files:
 
-Data.controller.js - the anguarJS controller in Scripts folder
-HomeController.cs - in controllers folder
-GitHubOwnerModel.cs , GithubResponseModel.cs , GithutItemModel.cs - for parse json from API  - in Models folder
-index.cshtml - the view page - in Views -> Home folders
-Main.html , Bookmark.html - template of pages - in Html folder 
+Data.controller.js - the anguarJS controller in Scripts folder.
+
+HomeController.cs - in controllers folder.
+
+GitHubOwnerModel.cs , GithubResponseModel.cs , GithutItemModel.cs - for parse json from API  - in Models folder.
+
+index.cshtml - the view page - in Views -> Home folders.
+
+Main.html , Bookmark.html - template of pages - in Html folder .
 
 
